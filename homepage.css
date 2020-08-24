@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    background: linear-gradient(180deg, #2C6555 0%, #000000 0.01%, #2F31FD 100%);
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: table;
+    margin: 20px auto;
+}
+
+.resume {
+    margin: 4px 2px;
+    padding: 13px;
+    float: right;
+    border-radius: 5px;
+    border: 0px;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
